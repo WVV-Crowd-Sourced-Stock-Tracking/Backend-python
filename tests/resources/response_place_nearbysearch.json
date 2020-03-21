@@ -1,0 +1,1013 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CqQCHwEAADssKPaiXErn25lmcSrv8KGVDVfsHxmoMmkWe_HiQxldO1FGJ3D4kExec4NfCet3GdFzpFKEmv9dC_XChwtrcroytBlPLLMaIK1VmoIRQHdyPLAuJJGQTRhJT6_smDG1OR3F6L8EVFpWCOeZ-v8Ou4A0RElbWEgc3PGit6fIIPdVJsdgEFhYlqc1bXqk_1csNVURuUtyW-XmaYEhKItar3R2i66i-lxeM_yv6yF5SycaLUcULm_SYTaY-aNeTlAWDYJrbQSDBZBZdnkrUWxcGwL1fAD1L4LkzhvYh-HopufCIZSZp8hOsODjyConNGfgt7c3AV-CYSf1ZlzjV-kGHUg15cNXHJUGPH3bnMEtRs_pbQk8-HJAZ15txR8SqHPXqBIQuZFOKILRd6Dgo70sqpnRLRoUb34zjZ3xEuDkL68zjDu9V4uRRa8",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9356314,
+               "lng" : 6.9565733
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.93696902989272,
+                  "lng" : 6.957738279892721
+               },
+               "southwest" : {
+                  "lat" : 50.93426937010728,
+                  "lng" : 6.955038620107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "5d5f1034b61b24d936faa8ca617ec174d96d7154",
+         "name" : "REWE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108831548812939630480\"\u003eTommy Li\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA5X5hKb0SRifdbZpRRIQAQmSs_Q_2HvDfifWZHjiZdFSEQ2cX53bGHYi1EL5mtUnMAr772t8Fkev-92g4zCVWEPLhebMnoFC410Ra0KAzxZWeDSM90wgqpHzGTAncSM_lEhCjEskKZwk1imuFOaN2rMUHGhTpWX84nJSz2Lq0gtt1aa4HfSAhLg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJqQrWBrIlv0cRJJd5f3qooWM",
+         "plus_code" : {
+            "compound_code" : "WXP4+7J Cologne",
+            "global_code" : "9F28WXP4+7J"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJqQrWBrIlv0cRJJd5f3qooWM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1032,
+         "vicinity" : "Hohe Str. 30, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.93880799999999,
+               "lng" : 6.952292
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.94015647989272,
+                  "lng" : 6.953715279892721
+               },
+               "southwest" : {
+                  "lat" : 50.93745682010727,
+                  "lng" : 6.951015620107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "f658bda74e7400a62f0811b6ec13aebb8c5ccc5c",
+         "name" : "REWE Richrath",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 600,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102315310788922136521\"\u003eREWE Supermarkt\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAlj_J-W2qFxkXUqSlO4BGuUPpJSzn03r8LYH6-VSgQdyTM5jY1iFpgslEp8xiwx3Vc2ROnMdepRtHU-a5ZcTtESidZRdbH3U_hbfTMsOjJQtgeIwn2Ayl9-CPsagipHnNEhAGD9OaFWO_v4gX30HOexkSGhS-WadCCEmJcRJYN7YrmUO4Te8c3Q",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJL631H68lv0cRArPtL5j97hM",
+         "plus_code" : {
+            "compound_code" : "WXQ2+GW Cologne",
+            "global_code" : "9F28WXQ2+GW"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJL631H68lv0cRArPtL5j97hM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1057,
+         "vicinity" : "Schwertnergasse 1, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.93670179999999,
+               "lng" : 6.9747642
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.93809902989273,
+                  "lng" : 6.976107979892723
+               },
+               "southwest" : {
+                  "lat" : 50.93539937010728,
+                  "lng" : 6.973408320107279
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "5012f67413d56265847b5c3dfcfb71579169ad39",
+         "name" : "REWE Rahmati",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105423128695775365510\"\u003e이덴트\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAI7sx80fPJtctDWRaz30NCGyOtsx9UJ-8g0u10wNk3SpJNyph7UaArjkWZVrgPdX9HSUTQzrKyb5s_0vhmzHLkZBsNetk_uU8tc36dS06Kf9OTgpZm0wolBUd7udDAklNEhAOyp-UUbymle-Vj9Nty19sGhTvzUSzD12v2eNTndo2XZbRAL9pEA",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJV96qIsklv0cRlj2YdUnXi3I",
+         "plus_code" : {
+            "compound_code" : "WXPF+MW Cologne",
+            "global_code" : "9F28WXPF+MW"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJV96qIsklv0cRlj2YdUnXi3I",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 824,
+         "vicinity" : "Deutzer Freiheit 84-86, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9415805,
+               "lng" : 6.936476799999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.94297837989273,
+                  "lng" : 6.937895379892722
+               },
+               "southwest" : {
+                  "lat" : 50.94027872010729,
+                  "lng" : 6.935195720107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "26b350c23b5506e8d68acd7c0ad499d5e4b0e450",
+         "name" : "REWE City Supermarket",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116809049619556635812\"\u003eOssama elhenawy\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAs1VKqlGhBZGxnWeFvRye379YI28cMb-ROpy9NR-N2FRHe78EIg6vgrIA8sQHKRW6W0qGsicaO7nzn78whAmQNLasNqFYuQqwlWO1LOvb8UvMRT6VubB26JQeuo4_eJvlEhBgKPSs2NYttGSmCGcXDAP_GhQ2cYnTXXKo8Y9j2SWSEBxIAbKQYQ",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJc1qakgUlv0cR54gK8OOiB44",
+         "plus_code" : {
+            "compound_code" : "WWRP+JH Cologne",
+            "global_code" : "9F28WWRP+JH"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJc1qakgUlv0cR54gK8OOiB44",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 303,
+         "vicinity" : "Venloer Str. 23, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9279292,
+               "lng" : 6.9424905
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.92941652989273,
+                  "lng" : 6.944053329892721
+               },
+               "southwest" : {
+                  "lat" : 50.92671687010728,
+                  "lng" : 6.941353670107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "d95bd6aa545ac17679128359ea760418f0c3c27c",
+         "name" : "REWE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1494,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114729121593290575266\"\u003eGeorg Dresel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA5jO65HbGea7VUasnfMT4wZFuu52_xVqDsXinlKo66DDHCQgGslVrpaYPgvkfnsQLKeOjd3bJqbtc8B6D-sXDvaf5KgAchPhBN_rUrpDLsZKLOvl0BupP8irbFV-L14rYEhDTNTVqhheFIKhNQBNZtUpSGhQhunVTtGn_8cnDF30fqvTOzGj1iw",
+               "width" : 2656
+            }
+         ],
+         "place_id" : "ChIJJU6fl1Ukv0cR2cSN_to9sVw",
+         "plus_code" : {
+            "compound_code" : "WWHR+5X Cologne",
+            "global_code" : "9F28WWHR+5X"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJJU6fl1Ukv0cR2cSN_to9sVw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 869,
+         "vicinity" : "Salierring 47-53, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9483312,
+               "lng" : 6.9571138
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.94969047989272,
+                  "lng" : 6.958304879892723
+               },
+               "southwest" : {
+                  "lat" : 50.94699082010728,
+                  "lng" : 6.955605220107279
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "7f9d478e4c5f095eb40784e5499bfde7cd830939",
+         "name" : "REWE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1920,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110181464185038141083\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAATyHdnTMprX13CIhyCD0hbgpRUp5GCjwUhAuDB5H2ycLks8PIsoUog5IZS4ZuRfy11knCbExCFRHj4O_xvlFXa5PIcM34Gy8Po-03bQTtAJ7qsOSsiWQXStWVhJJRAu2wEhBNWYgZVyRZKlanCUA4NUctGhRI6yZ3ZlC6pivw7APRihceeB5dFw",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJwXKgGqMlv0cRe1eSypurnTk",
+         "plus_code" : {
+            "compound_code" : "WXX4+8R Cologne",
+            "global_code" : "9F28WXX4+8R"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJwXKgGqMlv0cRe1eSypurnTk",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 1016,
+         "vicinity" : "Eigelstein 80-88, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9237283,
+               "lng" : 6.926456000000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.92512552989272,
+                  "lng" : 6.927767929892722
+               },
+               "southwest" : {
+                  "lat" : 50.92242587010728,
+                  "lng" : 6.925068270107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "27b755a10fd860d8a14f2cfed9fa3690759922e5",
+         "name" : "Netto Filiale",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108597933853743961751\"\u003eMaximilian Mende\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAANbwCUysohGzWD6o_m5632cnF6hRmTp5cXzTSw-cc2ufzy7V7SZiJU0D5g4HCFe4ngkp5rsbQkb3xOYTQfUZ-354Loys1zn9NEKVaKPlnRNIkFkE4EJPBL_aHE0_0_4xWEhA5XA53N3-heRr_xMcCrqXEGhTnEJ61iMyJv2Zq_e0bJc_wmjxMZg",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJ56jJVO4kv0cR9zdiSo9xM4M",
+         "plus_code" : {
+            "compound_code" : "WWFG+FH Cologne",
+            "global_code" : "9F28WWFG+FH"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJ56jJVO4kv0cR9zdiSo9xM4M",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 141,
+         "vicinity" : "Zülpicher Str. 213, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9376222,
+               "lng" : 6.9404656
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.93902872989272,
+                  "lng" : 6.941261279892721
+               },
+               "southwest" : {
+                  "lat" : 50.93632907010728,
+                  "lng" : 6.938561620107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "a44fbfe0f33f8ed263d561d577c624e7af02cfb7",
+         "name" : "REWE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101832575045909613341\"\u003eAndy Martin\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAANFoUiK9tmO_ob5p9JGfHEgzQfuTM-YODbl5-7Pj9my3sEUGk9WuKZAlcrrVCmKsUe05chS0Ep97gznMGRxBv6pwCxYbDqkVdW2ctqN6KH5C2tL_gs8VKNe3J2NPDrn3IEhBf3yj_4e4l58t3uEZi_qatGhQ-SuW1Dtgs7sED2nZRH4YPUnsbPw",
+               "width" : 5333
+            }
+         ],
+         "place_id" : "ChIJWXjXxAYlv0cRowwRh1Kd2_A",
+         "plus_code" : {
+            "compound_code" : "WWQR+25 Cologne",
+            "global_code" : "9F28WWQR+25"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJWXjXxAYlv0cRowwRh1Kd2_A",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 720,
+         "vicinity" : "Hohenzollernring 20, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9443382,
+               "lng" : 6.9255664
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.94540212989273,
+                  "lng" : 6.926573029892722
+               },
+               "southwest" : {
+                  "lat" : 50.94270247010728,
+                  "lng" : 6.923873370107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "eab44c2b38940e3a502c6b921e9d2382d85cc71b",
+         "name" : "REWE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 5120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109181626526665370400\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAMITPC0nYn2ekxvLtV0MZ-44CWESc3YRujA03zKuSlBoYXFbxyBBqNRjU0qtj93X71H-GPMbo8wMCtuDwjGnQOe0f9ELCA_jYdIiwzcyuGs8l8Hyx1-AIyfFmAe_8H-ddEhDAOojXxOOb4VLQrRb_JCOxGhQ-o1b2O-hktwYP8sbTrOB0Xg4H7g",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJx-6oTBclv0cRIrx6sMPK7DA",
+         "plus_code" : {
+            "compound_code" : "WWVG+P6 Cologne",
+            "global_code" : "9F28WWVG+P6"
+         },
+         "rating" : 4,
+         "reference" : "ChIJx-6oTBclv0cRIrx6sMPK7DA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 341,
+         "vicinity" : "Vogelsanger Str. 16, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.937874,
+               "lng" : 6.9348904
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.93922187989272,
+                  "lng" : 6.936124979892722
+               },
+               "southwest" : {
+                  "lat" : 50.93652222010728,
+                  "lng" : 6.933425320107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "9a8f90117bbd3fd68575c182fe017c364ee6fdbe",
+         "name" : "REWE Rahmati",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100967963992083074176\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAhYOEIM1cb3ZaNDNIUAizUsyuKzd31sGJC74QMsB7aKiocMXo7Gj_R1UngLZkzRcfHUzpBXlJt9H2mlXiG2XBq4EXC_FTRE2_McypyBxhNmZDestLvBk7gsi7M0WYB_zcEhCRRWwJtbP1IjlY9VSIbVXYGhQzQ9mHMu_efTkByYGwRxoqlk9E_Q",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJr4kZcAQlv0cRZHx8C-yj7Ys",
+         "plus_code" : {
+            "compound_code" : "WWQM+4X Cologne",
+            "global_code" : "9F28WWQM+4X"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJr4kZcAQlv0cRZHx8C-yj7Ys",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 78,
+         "vicinity" : "Brüsseler Str. 62, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9314563,
+               "lng" : 6.9484448
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.93285592989272,
+                  "lng" : 6.949815929892721
+               },
+               "southwest" : {
+                  "lat" : 50.93015627010728,
+                  "lng" : 6.947116270107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "856c63e5a579eaebec1ae12f75cb0fe30044513f",
+         "name" : "Mini-Super-Markt",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJCzCmVqslv0cR-cK79Eqp340",
+         "plus_code" : {
+            "compound_code" : "WWJX+H9 Cologne",
+            "global_code" : "9F28WWJX+H9"
+         },
+         "rating" : 0,
+         "reference" : "ChIJCzCmVqslv0cR-cK79Eqp340",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 0,
+         "vicinity" : "Großer Griechenmarkt 135, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9522024,
+               "lng" : 6.925814799999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.95333952989273,
+                  "lng" : 6.926904929892722
+               },
+               "southwest" : {
+                  "lat" : 50.95063987010728,
+                  "lng" : 6.924205270107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "e4797354a16d4787b6261efec3f78dcb696786ce",
+         "name" : "REWE Rahmati",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106867174358012376303\"\u003eErik Meiss\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAqaiT1jjyCHhLYobQgPvnOxsvsmKjdFrti84kuoToioO5-txN8Lw1qTQWnUbxhSeM7PzQhMlhqhZG71BAnJZH61ce5TNVpYg5KkvfHDSDrpVY0yjdeElJa72C7nbBSFrfEhBY9uOvrP4WnT9kEuLny9DhGhQ3tXKPXYgg4Oi_5latuW0kfecckQ",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJD2fB6RQlv0cR9Poddeh_hGs",
+         "plus_code" : {
+            "compound_code" : "XW2G+V8 Cologne",
+            "global_code" : "9F28XW2G+V8"
+         },
+         "rating" : 4,
+         "reference" : "ChIJD2fB6RQlv0cR9Poddeh_hGs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 618,
+         "vicinity" : "Subbelrather Str. 168-170, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9383522,
+               "lng" : 6.9474307
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.93969877989272,
+                  "lng" : 6.948910529892722
+               },
+               "southwest" : {
+                  "lat" : 50.93699912010727,
+                  "lng" : 6.946210870107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "49df7f11247fb01148cf8a86d17289d8493fd1cc",
+         "name" : "ALDI Süd Supermarket",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1920,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113862785423292951058\"\u003eAlexander Börries\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAMRk9RcxR0ppi-LPggCuVnYQi5F7_YdshyUBpu0lZFEEJiRl65Af_ubf1p3PpGtIfseML1nQED7lqP01G2dawohF_W702fhsILVZAVnkUJ0acQYmw9TbkvNGQIfkn7UVlEhBdAKPjzxYPcB9N1mvlLwjnGhQPh-dbcdWAwW_I-g6vF9ND7yLaNg",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJt6sBBqklv0cRBorhD9pHIQs",
+         "plus_code" : {
+            "compound_code" : "WWQW+8X Cologne",
+            "global_code" : "9F28WWQW+8X"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJt6sBBqklv0cRBorhD9pHIQs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 895,
+         "vicinity" : "Richmodstraße 31, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.920709,
+               "lng" : 6.932284
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.92200717989272,
+                  "lng" : 6.933753929892722
+               },
+               "southwest" : {
+                  "lat" : 50.91930752010728,
+                  "lng" : 6.931054270107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "232c92587fc0f85c0d45e580d067853632374599",
+         "name" : "REWE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112622214524087668406\"\u003eVictor Carrilho\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAPbXBAmpZzjcoFc8dZcIXoig3-Aoz8eB89avcNU97FWLoqpdhuRy_pXQTcWeV5W73v12nMAGl5xbeRYx7eemDacP4JKZAfqBXADmH-dCZQF2SGnN_hqv1Ku1m-oJJhAbeEhBNgfUIgczhrWgBqGqQiyKnGhQIVEcp65Bj_b9QbDmO4moZ4bAnZA",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJH2IcsfAkv0cR8iHgJY3agQA",
+         "plus_code" : {
+            "compound_code" : "WWCJ+7W Cologne",
+            "global_code" : "9F28WWCJ+7W"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJH2IcsfAkv0cR8iHgJY3agQA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 316,
+         "vicinity" : "Luxemburger Str. 150, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9273295,
+               "lng" : 6.9579305
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.92867237989272,
+                  "lng" : 6.959223079892721
+               },
+               "southwest" : {
+                  "lat" : 50.92597272010728,
+                  "lng" : 6.956523420107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "23850cfc369923116a6664e57f7b0c2a91c6dd09",
+         "name" : "SAHAN SUPERMARKT | Täglich frisches Obst, Gemüse und Fleisch",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118165446620696959864\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAzmpAPO_iyIhadn6qksdn4V8em0JJ3XJmXuwXkQ5x3VIoh8W6EfHUBD-RPKHhBKJonwTrkC_KNCBM8Bnj5ZZrt9jIKe_6-9oHWTPIBsJFO4RKKsj6sAlaInX4TrGApX28EhD5pKf-zHNdsxQ9YFPiCS0KGhS2Y9VCdRorIDdWAxC1UEgSYsQNjA",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJi35uUkwkv0cR2frnNHZ23Ho",
+         "plus_code" : {
+            "compound_code" : "WXG5+W5 Cologne",
+            "global_code" : "9F28WXG5+W5"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJi35uUkwkv0cR2frnNHZ23Ho",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 31,
+         "vicinity" : "Severinstraße 142, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9371774,
+               "lng" : 6.954724499999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.93852662989271,
+                  "lng" : 6.956167329892722
+               },
+               "southwest" : {
+                  "lat" : 50.93582697010727,
+                  "lng" : 6.953467670107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "cd897229a205ed192fdd93f22cf891cce18227d4",
+         "name" : "KONTRA-Lebensmittelmarkt Fredeburg GmbH&Co.KG",
+         "place_id" : "ChIJhceOaa4lv0cRBUi43nt0YBU",
+         "plus_code" : {
+            "compound_code" : "WXP3+VV Cologne",
+            "global_code" : "9F28WXP3+VV"
+         },
+         "rating" : 0,
+         "reference" : "ChIJhceOaa4lv0cRBUi43nt0YBU",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 0,
+         "vicinity" : "Ludwigstraße 1, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9523588,
+               "lng" : 6.9616847
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.95379282989272,
+                  "lng" : 6.962898479892721
+               },
+               "southwest" : {
+                  "lat" : 50.95109317010727,
+                  "lng" : 6.960198820107277
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "37b1be39afc75b63c4b018d8620d87968d6d0f17",
+         "name" : "REWE To Go bei Aral",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106701267505295458808\"\u003e106701267505295458808\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA-wI8ZsdsnImnT3ZRt_bjT6acoJsdld5Zp9v9CQzfgxcZQAhE274z31iL4deRVJtF5dwbM4zgHW93IWB24Tm51Z7zyt_On-HUikLJ2V1U8RyOmxw6YnLEFsEJlhBP39H8EhDNZUKq7-tlkF4z_RLppVkBGhQGCfEklbBrX2wjnzM-nfEopBGIMQ",
+               "width" : 1836
+            }
+         ],
+         "place_id" : "ChIJ8zjf7Jclv0cR-j1qHFcR5sw",
+         "plus_code" : {
+            "compound_code" : "XX26+WM Cologne",
+            "global_code" : "9F28XX26+WM"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ8zjf7Jclv0cR-j1qHFcR5sw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "cafe",
+            "liquor_store",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 145,
+         "vicinity" : "Riehler Str. 12-14, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9178924,
+               "lng" : 6.9249488
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.91927367989273,
+                  "lng" : 6.926238429892722
+               },
+               "southwest" : {
+                  "lat" : 50.91657402010728,
+                  "lng" : 6.923538770107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "3d480906e8994a5cd70905ad06bbfa572e30178b",
+         "name" : "REWE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1872,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112573986186537939491\"\u003ezalim\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA2Ujuek3Ux-2WAf5U0sZ6Sw33Kmx3IeHA_mtwAigmip1d3RTAIoNpEycqqJO5fT3VHxoelBYSxefuCJzYwxa8lbxSqnQ2JmrsHMl9-Jd3fka4zY_QWUv4MBsNHMWAiBC0EhDALK_qaxgEMTvXvHj0qFfTGhRi8iz0FDDRLOMHoNbJMwTy7B5mCQ",
+               "width" : 3328
+            }
+         ],
+         "place_id" : "ChIJCx_zEO4kv0cRW9DlDXm5ufs",
+         "plus_code" : {
+            "compound_code" : "WW9F+5X Cologne",
+            "global_code" : "9F28WW9F+5X"
+         },
+         "rating" : 4,
+         "reference" : "ChIJCx_zEO4kv0cRW9DlDXm5ufs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 321,
+         "vicinity" : "Berrenrather Str. 217, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9342133,
+               "lng" : 6.9316814
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.93549442989272,
+                  "lng" : 6.933031579892723
+               },
+               "southwest" : {
+                  "lat" : 50.93279477010728,
+                  "lng" : 6.930331920107279
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "a6e6eea1702f9a72713197514bb4e915ecbf9c63",
+         "name" : "dienlich Lebensmittel GmbH",
+         "place_id" : "ChIJ27Fd5gIlv0cRT0R1SP3qabQ",
+         "plus_code" : {
+            "compound_code" : "WWMJ+MM Cologne",
+            "global_code" : "9F28WWMJ+MM"
+         },
+         "rating" : 0,
+         "reference" : "ChIJ27Fd5gIlv0cRT0R1SP3qabQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 0,
+         "vicinity" : "Jülicher Str. 32, Köln"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 50.9514487,
+               "lng" : 6.9568774
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.95279392989272,
+                  "lng" : 6.958323279892721
+               },
+               "southwest" : {
+                  "lat" : 50.95009427010728,
+                  "lng" : 6.955623620107278
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "c372aaea8d0fb213eae385d15aa9c82f0bb7a06e",
+         "name" : "REWE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107643037961683176496\"\u003eMirko Bettels\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA9BPRxOXAn0yi8lwIPMpmT_Bh-VB0kAjOpuBymDx5k-9CNM-B4Soo95UlP_AfaEiW4tjXVLxjltALYqRnzZ2dtngxoswj5XJMT-WR_A_jGgBI4mIQtZrUE87HpPx6CDHgEhB749sEu9t9Sw1XcKTKD-hRGhTle8iZZnTaMtYOOyuM-A6zzB8KJg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJcU4qf6Ilv0cRlyr5YInwb7s",
+         "plus_code" : {
+            "compound_code" : "XX24+HQ Cologne",
+            "global_code" : "9F28XX24+HQ"
+         },
+         "rating" : 4,
+         "reference" : "ChIJcU4qf6Ilv0cRlyr5YInwb7s",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 440,
+         "vicinity" : "Neusser Str. 5-7, Köln"
+      }
+   ],
+   "status" : "OK"
+}
