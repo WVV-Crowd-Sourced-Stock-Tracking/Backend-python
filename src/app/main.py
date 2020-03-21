@@ -27,12 +27,13 @@ def distance(lat1, lon1, lat2, lon2):
     a = sin(dlat / 2)**2 + cos(lat1) * cos(lat2) * sin(dlon / 2)**2
     c = 2 * atan2(sqrt(a), sqrt(1 - a))
 
-    distance = R * c
+    # we discussed to have all distances in meters
+    distance = R * c * 1000
 
     return distance
 
 
-def find_query(latitude, longitude, max_dist=1):
+def find_query(latitude, longitude, max_dist=1000):
     t0 = time.time()
     min_dist = float('inf')
     print("Searching %d cached queries" % len(app.query_cache))
@@ -64,14 +65,24 @@ def read_markets(
         radius: float = 1000):
     print(zip_code, latitude, longitude, radius)
 
+    gmaps = None
     if zip_code is not None:
-        print("WARN: not implemented yet.")
-        raise HTTPException(status_code=404, detail="Not implemented yet.")
+        #TODO we should verify that it is a valid German zip code
+        # we first need to use the Geocoding API to map a German zip to latitude/longitude coordinates
+        gmaps = googlemaps.Client(key=os.environ['GOOGLE_MAPS_KEY'])
+        results = gmaps.geocode(address='%s+Deutschland' % zip_code)
+        if len(results) > 0:
+            latitude = results[0]['geometry']['location']['lat']
+            longitude = results[0]['geometry']['location']['lng']
+        else:
+            print("ERROR: could not map ZIP code to coordinates.")
+            raise HTTPException(status_code=404, detail="Could not map ZIP code to coordinates.")
 
     cached_query = find_query(latitude, longitude)
 
     if cached_query is None:
-        gmaps = googlemaps.Client(key=os.environ['GOOGLE_MAPS_KEY'])
+        if gmaps is None:
+            gmaps = googlemaps.Client(key=os.environ['GOOGLE_MAPS_KEY'])
         result = gmaps.places_nearby((latitude, longitude), radius=radius, keyword='supermarkt')
         add_query_to_cache(latitude, longitude, result)
     else:
