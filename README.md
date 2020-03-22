@@ -6,7 +6,25 @@ This repository contains the code that makes supermarkets and their details avai
 
 The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on AWS.
 
+### Prerequisites
+
+We use [pipenv](https://github.com/pypa/pipenv) to manage our dependencies. Assuming you have `pipenv` installed on your system, you can install the necessary dependencies via:
+
+```
+pipenv install
+```
+
+### Running Tests
+
+TODO
+
+### Building and running Docker images
+
+TODO
+
 ## Deployment
+
+TODO
 
 ## Authors
 
