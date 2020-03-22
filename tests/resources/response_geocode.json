@@ -1,0 +1,30 @@
+[
+    {
+        "address_components": [
+            {"long_name": "50933", "short_name": "50933", "types": ["postal_code"]},
+            {"long_name": "Cologne", "short_name": "Cologne", "types": ["locality", "political"]},
+            {"long_name": "Cologne", "short_name": "K", "types": ["administrative_area_level_2", "political"]},
+            {"long_name": "North Rhine-Westphalia", "short_name": "NRW", "types": ["administrative_area_level_1", "political"]},
+            {"long_name": "Germany", "short_name": "DE", "types": ["country", "political"]}],
+        "formatted_address": "50933 Cologne, Germany",
+        "geometry": {
+            "bounds": {
+                "northeast": {
+                    "lat": 50.95636709999999,
+                    "lng": 6.9129141
+                }, "southwest": {
+                    "lat": 50.9287009,
+                    "lng": 6.848904999999999
+                }
+            },
+            "location": {
+                "lat": 50.94010859999999, "lng": 6.8851368
+            },
+            "location_type": "APPROXIMATE",
+            "viewport": {"northeast": {"lat": 50.95636709999999, "lng": 6.9129141}, "southwest": {"lat": 50.9287009, "lng": 6.848904999999999}
+            }
+        },
+        "place_id": "ChIJVRJI89A6v0cR8KYmq_9gJxw",
+    "types": ["postal_code"]
+    }
+]

@@ -58,6 +58,14 @@ def test_read_markets_radius():
         assert patched_client.mock_calls[1][2]['radius'] == 2000
 
 
+def test_read_markets_cached_radius():
+    client.app.query_cache = []
+    with patch('googlemaps.Client') as patched_client:
+        response = client.get("/markets?latitude=50.935173&longitude=6.953101")
+        response = client.get("/markets?latitude=50.935173&longitude=6.953101&radius=2000")
+    assert len(client.app.query_cache) == 2
+
+
 def test_cache():
     client.app.query_cache = []
     with patch('googlemaps.Client') as patched_client:
@@ -75,4 +83,17 @@ def test_cache():
     #TODO implement max size for cache
     # assert True is False
 
-    #TODO implement radius in cache
+
+def test_read_market():
+    with patch('googlemaps.Client') as patched_client:
+        with open('tests/resources/response_place.json') as fp:
+            patched_client.return_value.place.return_value = json.load(fp)
+        response = client.get("/market?place_id=ChIJqQrWBrIlv0cRJJd5f3qooWM")
+        assert response.status_code == 200
+        market = response.json()
+        assert market['street_number'] == '30'
+        assert market['route'] == 'Hohe Str.'
+        assert market['locality'] == 'Köln'
+        assert market['postal_code'] == '50667'
+
+        #TODO add opening hours from details

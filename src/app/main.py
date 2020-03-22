@@ -33,14 +33,14 @@ def distance(lat1, lon1, lat2, lon2):
     return distance
 
 
-def find_query(latitude, longitude, max_dist=1000):
+def find_query(latitude, longitude, radius, max_dist=1000):
     t0 = time.time()
     min_dist = float('inf')
     print("Searching %d cached queries" % len(app.query_cache))
     for q in app.query_cache:
         dist = distance(latitude, longitude, q["lat"], q['lng'])
-        print(q["lat"], q['lng'], dist)
-        if dist < min_dist:
+        print(q["lat"], q['lng'], q['radius'], dist)
+        if dist < min_dist and radius == q['radius']:
             min_dist = dist
             min_result = q['result']
     print("find_query took %.2f secs" % (time.time() - t0))
@@ -49,10 +49,11 @@ def find_query(latitude, longitude, max_dist=1000):
     return None
 
 
-def add_query_to_cache(latitude, longitude, result):
+def add_query_to_cache(latitude, longitude, radius, result):
     app.query_cache.append({
         "lat": latitude,
         "lng": longitude,
+        "radius": radius,
         "result": result,
         "ts": dt.datetime.now()
     })
@@ -78,13 +79,13 @@ def read_markets(
             print("ERROR: could not map ZIP code to coordinates.")
             raise HTTPException(status_code=404, detail="Could not map ZIP code to coordinates.")
 
-    cached_query = find_query(latitude, longitude)
+    cached_query = find_query(latitude, longitude, radius)
 
     if cached_query is None:
         if gmaps is None:
             gmaps = googlemaps.Client(key=os.environ['GOOGLE_MAPS_KEY'])
         result = gmaps.places_nearby((latitude, longitude), radius=radius, keyword='supermarkt')
-        add_query_to_cache(latitude, longitude, result)
+        add_query_to_cache(latitude, longitude, radius, result)
     else:
         result = cached_query
 
@@ -105,6 +106,26 @@ def read_markets(
                 else:
                     print("Did not find open_now in %s" % market['opening_hours'])
     return markets
+
+
+@app.get("/market")
+def read_market(place_id: str):
+    print(place_id)
+    gmaps = googlemaps.Client(key=os.environ['GOOGLE_MAPS_KEY'])
+    response = gmaps.place(place_id=place_id)
+    market = {}
+    if 'result' in response and 'address_components' in response['result']:
+        details = response['result']['address_components']
+        for component in details:
+            if 'street_number' in component['types']:
+                market['street_number'] = component['short_name']
+            elif 'route' in  component['types']:
+                market['route'] = component['short_name']
+            elif 'locality' in  component['types']:
+                market['locality'] = component['short_name']
+            elif 'postal_code' in  component['types']:
+                market['postal_code'] = component['short_name']
+    return market
 
 
 @app.get("/cache/markets/", include_in_schema=False)
