@@ -111,7 +111,7 @@ def read_markets(
         result = gmaps.places_nearby((latitude, longitude), radius=radius, keyword='supermarkt')
         add_query_to_cache(latitude, longitude, radius, result)
 
-        tbl = boto3.session.Session().resource('dynamodb').Table("supermarket")
+        tbl = boto3.session.Session().resource('dynamodb', region_name='eu-central-1').Table("supermarket")
         if 'results' in result:
             for market in result['results']:
                 item = {
@@ -165,11 +165,21 @@ def read_market(place_id: str):
                 elif 'postal_code' in  component['types']:
                     market['postal_code'] = component['short_name']
         if 'opening_hours' in response['result'] and 'periods' in response['result']['opening_hours']:
-            market['opening_hours'] = {
-                'periods': response['result']['opening_hours']['periods']
-            }
+            if len(response['result']['opening_hours']['periods']) == 1:
+                market['opening_hours'] = {
+                    'periods': []
+                }
+            else:
+                market['opening_hours'] = {
+                    'periods': response['result']['opening_hours']['periods']
+                }
         if 'icon' in response['result']:
             market['icon'] = response['result']['icon']
+        if 'geometry' in response['result'] and 'location' in response['result']['geometry']:
+            if 'lat' in response['result']['geometry']['location'] and 'lng' in response['result']['geometry']['location']:
+                market['latitude'] = response['result']['geometry']['location']['lat']
+                market['longitude'] = response['result']['geometry']['location']['lng']
+
 
     return market
 

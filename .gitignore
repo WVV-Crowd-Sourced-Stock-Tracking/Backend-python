@@ -1,5 +1,6 @@
 # Mac OSX
 .DS_Store
+config-customvision.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

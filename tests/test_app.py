@@ -119,3 +119,15 @@ def test_read_market():
         assert type(market['opening_hours']) == dict
         assert 'periods' in market['opening_hours']
         assert market['icon'] == "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png"
+        assert market['latitude'] == 50.9356314
+        assert market['longitude'] == 6.956573299999999
+
+
+def test_read_market_zero_periode():
+    with patch('googlemaps.Client') as patched_client:
+        with open('tests/resources/response_place-zero_periode.json') as fp:
+            patched_client.return_value.place.return_value = json.load(fp)
+        response = client.get("/market?place_id=ChIJqQrWBrIlv0cRJJd5f3qooWM")
+        assert response.status_code == 200
+        market = response.json()
+        assert market['opening_hours']['periods'] == []
