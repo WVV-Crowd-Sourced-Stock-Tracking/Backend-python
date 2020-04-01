@@ -165,14 +165,9 @@ def read_market(place_id: str):
                 elif 'postal_code' in  component['types']:
                     market['postal_code'] = component['short_name']
         if 'opening_hours' in response['result'] and 'periods' in response['result']['opening_hours']:
-            if len(response['result']['opening_hours']['periods']) == 1:
-                market['opening_hours'] = {
-                    'periods': []
-                }
-            else:
-                market['opening_hours'] = {
-                    'periods': response['result']['opening_hours']['periods']
-                }
+            market['opening_hours'] = {
+                'periods': response['result']['opening_hours']['periods']
+            }
         if 'icon' in response['result']:
             market['icon'] = response['result']['icon']
         if 'geometry' in response['result'] and 'location' in response['result']['geometry']:

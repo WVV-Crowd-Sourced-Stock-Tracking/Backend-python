@@ -130,4 +130,4 @@ def test_read_market_zero_periode():
         response = client.get("/market?place_id=ChIJqQrWBrIlv0cRJJd5f3qooWM")
         assert response.status_code == 200
         market = response.json()
-        assert market['opening_hours']['periods'] == []
+        assert len(market['opening_hours']['periods']) == 1
